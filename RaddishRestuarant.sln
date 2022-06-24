@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{61A40EAB-E290-4385-A8EA-AC26EA7F6917}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{7336E099-BBDC-4EE5-929A-309C13DCA830}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RaddishRestaurant.Services.ProductAPI", "RaddishRestaurant.Services.ProductAPI\RaddishRestaurant.Services.ProductAPI.csproj", "{C2C57874-36C2-4907-B03D-20014209BE3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Raddish.Webs", "Raddish.Webs\Raddish.Webs.csproj", "{214761C0-A051-4593-AD1C-BD4617BF20A1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2C57874-36C2-4907-B03D-20014209BE3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2C57874-36C2-4907-B03D-20014209BE3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2C57874-36C2-4907-B03D-20014209BE3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2C57874-36C2-4907-B03D-20014209BE3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214761C0-A051-4593-AD1C-BD4617BF20A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214761C0-A051-4593-AD1C-BD4617BF20A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214761C0-A051-4593-AD1C-BD4617BF20A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214761C0-A051-4593-AD1C-BD4617BF20A1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2C57874-36C2-4907-B03D-20014209BE3E} = {7336E099-BBDC-4EE5-929A-309C13DCA830}
+		{214761C0-A051-4593-AD1C-BD4617BF20A1} = {61A40EAB-E290-4385-A8EA-AC26EA7F6917}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E19D9B9-9722-4F12-9832-9971CF688F5E}
+	EndGlobalSection
+EndGlobal

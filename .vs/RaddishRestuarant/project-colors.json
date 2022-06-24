@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "95389f17-55d6-4177-b61c-0c8f0c00d7a7": {
+      "ProjectGuid": "95389f17-55d6-4177-b61c-0c8f0c00d7a7",
+      "DisplayName": "RaddishRestuarant",
+      "ColorIndex": 0
+    },
+    "594ee78d-d9aa-4b29-9097-03ec88e83196": {
+      "ProjectGuid": "594ee78d-d9aa-4b29-9097-03ec88e83196",
+      "DisplayName": "Raddish.Services.ProductAPI",
+      "ColorIndex": 1
+    },
+    "c2c57874-36c2-4907-b03d-20014209be3e": {
+      "ProjectGuid": "c2c57874-36c2-4907-b03d-20014209be3e",
+      "DisplayName": "RaddishRestaurant.Services.ProductAPI",
+      "ColorIndex": 2
+    },
+    "3e7ea79c-cf0a-4544-a968-326a406f506c": {
+      "ProjectGuid": "3e7ea79c-cf0a-4544-a968-326a406f506c",
+      "DisplayName": "Raddish.Web",
+      "ColorIndex": 3
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 4
+}
