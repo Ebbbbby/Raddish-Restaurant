@@ -2,15 +2,17 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using RaddishRestaurant.Services.ProductAPI.DbContexts;
 
 namespace RaddishRestaurant.Services.ProductAPI.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220624225608_SeedProducts")]
+    partial class SeedProducts
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -69,7 +71,7 @@ namespace RaddishRestaurant.Services.ProductAPI.Migrations
                             ProductId = 3,
                             CategoryName = "Appetizer",
                             Description = "You can't have a enough of this sweet goodness rolled up in the freshest of dough.",
-                            ImageUrl = "https://img.sunset02.com/sites/default/files/styles/4_3_horizontal_inbody_900x506/public/image/2016/10/main/lattice-top-apple-quince-sun-1116_0.jpg",
+                            ImageUrl = "https://guardian.ng/wp-content/uploads/2017/07/choclate-icecream1.jpeg",
                             Name = "Sweet Pie",
                             Price = 7.7999999999999998
                         },
@@ -78,7 +80,7 @@ namespace RaddishRestaurant.Services.ProductAPI.Migrations
                             ProductId = 4,
                             CategoryName = "Dessert",
                             Description = "Not like the ordinary icecream you come by everyday. Each scoop is filled with creamy goodness",
-                            ImageUrl = "https://guardian.ng/wp-content/uploads/2017/07/choclate-icecream1.jpeg",
+                            ImageUrl = "",
                             Name = "Chocolate Scoop",
                             Price = 10.99
                         });
