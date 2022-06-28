@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oLDWk/d3aQWWMpXLO6pgqX8T6o4LF5hKyEBYf0cDoLS53TyuGXrLpFE+d/FyC23xh1A4DFFZRxqSGtqkgytuAw==",
+  "dgSpecHash": "5RGDOzY9X8xy+gfZ5dpLOsEkux83pozZU/FPeno7yK4mhk5QDDBQi0ZwEcdJfWPDNZRtxJqr1mOpmhFpycYY3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\hp\\Documents\\Projects\\RaddishRestuarant\\Raddish.Webs\\Raddish.Webs.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

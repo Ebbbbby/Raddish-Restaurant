@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace RaddishRestaurant.Services.ProductAPI.Models.Dto
+namespace Raddish.Webs.Models
 {
     public class ProductDto
     {
