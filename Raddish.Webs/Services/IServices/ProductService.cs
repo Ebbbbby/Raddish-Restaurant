@@ -23,7 +23,7 @@ namespace Raddish.Webs.Services.IServices
             });
         }
 
-        public  async Task<T> DeleteProductAsync<T>(int id)
+        public  async Task<T> DeleteProductAsync<T>(int id) 
         {
             return await this.SendAsync<T>(new ApiRequests()
             {

@@ -50,6 +50,7 @@ namespace Raddish.Webs.Services.IServices
                             break;
                     }
                     apiResponse = await client.SendAsync(message);
+
                     var apiContent = await apiResponse.Content.ReadAsStringAsync();
                     var apiResposeDto = JsonConvert.DeserializeObject<T>(apiContent);
                     return apiResposeDto;   
