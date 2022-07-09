@@ -18,7 +18,7 @@ namespace Raddish.Webs.Services.IServices
             {
                 ApiType = SD.ApiType.POST,
                 Data = productDto,
-                Url = SD.ProductAPIBase + "api/products",
+                Url = SD.ProductAPIBase + "/api/products",
                 AccessToken = ""
             });
         }
@@ -29,7 +29,7 @@ namespace Raddish.Webs.Services.IServices
             {
                 ApiType = SD.ApiType.DELETE,
                
-                Url = SD.ProductAPIBase + "api/products" + id,
+                Url = SD.ProductAPIBase + "/api/products/"+id,
                  
                 AccessToken = ""
             });
@@ -40,7 +40,7 @@ namespace Raddish.Webs.Services.IServices
             return await this.SendAsync<T>(new ApiRequests()
             {
                 ApiType = SD.ApiType.GET,
-                Url = SD.ProductAPIBase + "api/products",
+                Url = SD.ProductAPIBase + "/api/products",
                 AccessToken = ""
             });
         }
@@ -50,7 +50,7 @@ namespace Raddish.Webs.Services.IServices
             return await this.SendAsync<T>(new ApiRequests()
             {
                 ApiType = SD.ApiType.GET,
-                Url = SD.ProductAPIBase + "api/products" + id,
+                Url = SD.ProductAPIBase + "/api/products/"+id,
                 AccessToken = ""
             });
         }
@@ -61,7 +61,7 @@ namespace Raddish.Webs.Services.IServices
             {
                 ApiType = SD.ApiType.PUT,
                 Data = productDto,
-                Url = SD.ProductAPIBase + "api/products",
+                Url = SD.ProductAPIBase + "/api/products",
                 AccessToken = ""
             });
         }

@@ -37,4 +37,5 @@ C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\obj\Debug\net5.0\R
 C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\obj\Debug\net5.0\Raddish.Webs.genruntimeconfig.cache
 C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\obj\Debug\net5.0\Raddish.Webs.csproj.CopyComplete
 C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\bin\Debug\net5.0\Newtonsoft.Json.dll
-C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\obj\Debug\net5.0\Razor\Views\Product\Index.cshtml.g.cs
+C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\obj\Debug\net5.0\Razor\Views\Product\ProductIndex.cshtml.g.cs
+C:\Users\hp\Documents\Projects\RaddishRestuarant\Raddish.Webs\obj\Debug\net5.0\Razor\Views\Product\ProductCreate.cshtml.g.cs

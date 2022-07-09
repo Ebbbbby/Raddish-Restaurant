@@ -14,7 +14,7 @@ namespace Raddish.Webs.Services.IServices
         public IHttpClientFactory httpClient { get; set; }
         public BaseService(IHttpClientFactory httpClient)
         {
-           this .responseModel = new ResponseDto();
+           this.responseModel = new ResponseDto();
            this.httpClient = httpClient;
         }
 
@@ -23,7 +23,7 @@ namespace Raddish.Webs.Services.IServices
         {
             try
             {
-                var client = httpClient.CreateClient("RaddishAPI");
+                var client = httpClient.CreateClient("RaddishRestaurantAPI");
                 HttpRequestMessage message = new HttpRequestMessage();
                 message.Headers.Add("Accept", "application/json");
                 message.RequestUri = new Uri(apiRequests.Url);
@@ -31,11 +31,11 @@ namespace Raddish.Webs.Services.IServices
                 if (apiRequests.Data != null)
                 {
                     message.Content = new StringContent(JsonConvert.SerializeObject(apiRequests.Data),
-                    Encoding.UTF8, "application/json");
+                    Encoding.UTF8,"application/json");
                 }
-                    HttpResponseMessage apiResponse = null;
-                    switch (apiRequests.ApiType)
-                    {           
+                HttpResponseMessage apiResponse = null;
+                 switch (apiRequests.ApiType)
+                 {           
                         case SD.ApiType.POST:
                             message.Method = HttpMethod.Post;   
                             break;
@@ -48,21 +48,20 @@ namespace Raddish.Webs.Services.IServices
                         default:
                             message.Method = HttpMethod.Get;
                             break;
-                    }
+                 }
                     apiResponse = await client.SendAsync(message);
-
                     var apiContent = await apiResponse.Content.ReadAsStringAsync();
                     var apiResposeDto = JsonConvert.DeserializeObject<T>(apiContent);
                     return apiResposeDto;   
                 
             }
-            catch (Exception ex)
-            {
+            catch (Exception e)
+            { 
 
                 var dto = new ResponseDto
                 {
                     DisplayMessage = "Error",
-                    ErrorMessages = new List<string> { Convert.ToString(ex.Message) },
+                    ErrorMessages = new List<string> { Convert.ToString(e.Message) },
                     IsSuccess = false
                 };
 
